@@ -1,0 +1,33 @@
+/*  */
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+#sidebar {
+    background-color: grey !important;
+    height: calc(160vh - 57px);
+    width: 200px;
+}
+#sidebar a {
+    color: #fff;
+}
+#sidebar a.active {
+    text-decoration: underline;
+}
+@media (max-width: 767px){
+    #sidebar {
+        width: 50px;
+    }
+}
+.main-container {
+     max-height: calc(100vh - 57px);
+     overflow: auto;
+}
+.required-fill{
+    color: red;
+}
